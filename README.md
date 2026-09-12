@@ -208,23 +208,23 @@ Raw CSV (superstore_raw.csv)
 [3] Preprocessing (dedup, KNN imputation, log-transforms, 12+ engineered features)
        |
        v
-[4] EDA (numeric stats, correlations, category/time aggregations)  <----+
-       |                                                              |
-       v                                                              |
-[5] Statistical Tests (t-test, ANOVA, chi-square, Pearson, Mann-Whitney) |
-       |                                                              |
-       v                                                              |
-[6] Time Series (decomposition, ARIMA forecast, anomalies)             |
-       |                                                              |
-       v                                                              |
-[7] Customer Analytics (RFM, CLV, repeat)       [8] Product Analytics  |
-       |                                   (Pareto, profitability,      |
-       v                                    affinity, discount)         |
-[9] Geographic Analysis                  |                              |
-       |                                 v                              |
-       v                         [10] Predictive Modelling              |
-[11] Visualizations (30+ charts)          (RF, XGBoost)                 |
-       |                                                           ----+
+[4] EDA (numeric stats, correlations, category/time aggregations)  <----+ |
+       |                                                                  |
+       v                                                                  |
+[5] Statistical Tests (t-test, ANOVA, chi-square, Pearson, Mann-Whitney)  |
+       |                                                                  |
+       v                                                                  |
+[6] Time Series (decomposition, ARIMA forecast, anomalies)                |
+       |                                                                  |
+       v                                                                  |
+[7] Customer Analytics (RFM, CLV, repeat)       [8] Product Analytics     |
+       |                                   (Pareto, profitability,        |
+       v                                    affinity, discount)           |
+[9] Geographic Analysis                  |                                |
+       |                                 v                                |
+       v                         [10] Predictive Modelling                |
+[11] Visualizations (30+ charts)          (RF, XGBoost)                   |
+       |                                                           ----+  |
        v
 [12] SQL Export  [13] Excel Export  [14] Markdown Report  [15] HTML Report
 ```
