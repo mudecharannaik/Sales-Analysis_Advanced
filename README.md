@@ -4,6 +4,7 @@
 
 ---
 
+Google Drive link : https://drive.google.com/drive/folders/1zwkEW3ZAYE-uQJWHaI8JE5oooHEX7JFA?usp=sharing
 ## Project Overview
 
 This project is a **comprehensive, end-to-end sales analytics pipeline** built for the **Superstore Sales Dataset** — a widely-used retail dataset containing **51,290 transactions** across **25,035 unique orders**, **1,590 customers**, and **10,292 products** spanning **147 countries** from **January 2011 to December 2014**. The pipeline performs data ingestion, quality assurance, preprocessing, exploratory data analysis (EDA), statistical hypothesis testing, time-series decomposition and forecasting, customer analytics (RFM segmentation & CLV), product analytics (Pareto & profitability matrix), geographic analysis, predictive modelling (Random Forest & XGBoost), and generates multi-format reports and 30+ data visualizations.
